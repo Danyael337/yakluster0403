@@ -23,6 +23,8 @@ spec:
           env:
             - name: RUNENVIRONMENT
               value: Production
+      imagePullSecrets:
+      - name: gitsystementorregcred # för att hämta image från private repo              
 ---
 apiVersion: v1
 kind: Service
