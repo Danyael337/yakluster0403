@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
         - name: stensax
-          image: git.systementor.se/yacloud/stensax0424
+          # image: git.systementor.se/yacloud/stensax0424
+          image: git.systementor.se/daniel.aggerstam@yaelev.se/stensax0424
           ports:
             - containerPort: 8080
           env:

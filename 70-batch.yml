@@ -10,6 +10,7 @@ spec:
         spec:
           containers:
           - name: fetchcustomerdata
-            image: git.systementor.se/yacloud/gobatchdemo
+            # image: git.systementor.se/yacloud/gobatchdemo
+            image: git.systementor.se/daniel.aggerstam@yaelev.se/gobatchdemo
             imagePullPolicy: IfNotPresent
           restartPolicy: OnFailure
