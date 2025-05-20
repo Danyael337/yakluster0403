@@ -17,5 +17,20 @@ spec:
               value : "salary"
             - name : "sql_host"
               value : "mysqlserver1"     
-
+            - name : "sql_port"
+              value : "3306"
+            - name : "sql_username"
+              value : "root
+            - name : "sql_password"
+              value : "hejsan123"
+            - name : "aws_key"
+              value : "001e75c2a0456800000000002"
+            - name : "aws_secret"
+              value : "K001V/k8QwVH9PYOSMjPXMGe27hhaC8"
+            - name : "s3_host_base"
+              value : "s3.eu-central-003.backblazeb2.com"
+            - name : "cmd"
+              value : "sync-local-to-s3"
+            - name : "DEST_S3"
+              value : "s3://daniel/backup_db"
           restartPolicy: OnFailure
