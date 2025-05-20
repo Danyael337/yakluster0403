@@ -12,9 +12,10 @@ spec:
           - name: fetchcustomerdata
             image: git.systementor.se/daniel/backup_db            
             imagePullPolicy: IfNotPresent
-          env:
-            name : "sql_database"
-            value : "salary"
-            name : "sql_host"
-            value : "mysqlserver1"            
+            env:
+            - name : "sql_database"
+              value : "salary"
+            - name : "sql_host"
+              value : "mysqlserver1"     
+
           restartPolicy: OnFailure
