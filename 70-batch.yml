@@ -33,5 +33,5 @@ spec:
             - name : "cmd"
               value : "sync-local-to-s3"
             - name : "DEST_S3"
-              value : "s3://daniel/backup_db"
+              value : "s3://backupdaniel_db"
           restartPolicy: OnFailure
