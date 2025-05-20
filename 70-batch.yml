@@ -10,7 +10,11 @@ spec:
         spec:
           containers:
           - name: fetchcustomerdata
-            # image: git.systementor.se/yacloud/gobatchdemo
-            image: git.systementor.se/daniel/helloworld
+            image: git.systementor.se/daniel/backup_db            
             imagePullPolicy: IfNotPresent
+          env:
+            name : "sql_database"
+            value : "salary"
+            name : "sql_host"
+            value : "mysqlserver1"            
           restartPolicy: OnFailure
