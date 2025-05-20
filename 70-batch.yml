@@ -9,7 +9,7 @@ spec:
       template:
         spec:
           containers:
-          - name: backupCJ123
+          - name: backup-cromejob-123
             image: git.systementor.se/daniel/backup_db            
             imagePullPolicy: IfNotPresent
             env:
