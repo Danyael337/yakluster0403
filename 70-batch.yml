@@ -9,7 +9,7 @@ spec:
       template:
         spec:
           containers:
-          - name: fetchcustomerdata
+          - name: backupCJ123
             image: git.systementor.se/daniel/backup_db            
             imagePullPolicy: IfNotPresent
             env:
